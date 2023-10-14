@@ -1,0 +1,56 @@
+/*mise en page*/
+h1,em{
+    color:cadetblue;
+}
+.introduction{
+    color: black;
+}
+#logo{
+    text-align: center;
+}
+h1{
+    text-align: center;
+    border: 3px blue double;
+    border-top-color:gold ;
+    border-bottom-color:green ;
+    border-radius: 10px 15px 20px 25px;
+    box-shadow: 10px 10px 6px blue;
+    
+}
+a{
+    text-decoration: none;
+    color: red;
+    font-style: italic;
+}
+a:hover{
+    text-decoration: underline;
+    color: green;
+
+}
+p:hover{
+    color:green;
+}
+h2{
+    border: 2px greenyellow solid;
+    width: 10%;
+    min-width: 400px;
+    height: 40px;
+
+}
+p{
+    /*width: 350px;
+    border: 1px rebeccapurple solid;
+    text-align: justify;
+    padding: 15px;
+    margin-bottom: 40px;
+    margin:auto;*/
+    
+width: 350px; /* On a indiqué une largeur (obligatoire) */
+margin: auto; /* On peut donc demander à ce que le bloc soit
+centré avec auto */
+border: 1px solid black;
+text-align: justify;
+padding: 12px;
+margin-bottom: 60px;
+
+}
